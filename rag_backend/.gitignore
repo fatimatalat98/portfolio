@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.pyc
+
+rag_backend/chroma_db/
+node_modules/

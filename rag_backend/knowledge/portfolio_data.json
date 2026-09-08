@@ -1,0 +1,447 @@
+{
+  "profile": {
+    "name": "Fatima Talat",
+    "role": "Software Development Student",
+    "summary": "Fatima Talat is a software development student building projects across frontend development, backend development, databases, Java, C++, JavaScript, Node.js and artificial intelligence.",
+    "interests": [
+      "Frontend Development",
+      "Backend Development",
+      "Full Stack Development",
+      "JavaScript",
+      "Java",
+      "C++",
+      "Databases",
+      "Artificial Intelligence",
+      "Retrieval-Augmented Generation"
+    ]
+  },
+  "skills": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Web Design"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "REST APIs"
+    ],
+    "programming": [
+      "JavaScript",
+      "Java",
+      "C++"
+    ],
+    "database": [
+      "MongoDB",
+      "MongoDB Atlas",
+      "MySQL",
+      "SQL",
+      "JDBC"
+    ],
+    "concepts": [
+      "Object-Oriented Programming",
+      "File Handling",
+      "REST API Development",
+      "Database Integration",
+      "Git",
+      "GitHub",
+      "Retrieval-Augmented Generation"
+    ],
+    "tools": [
+      "Visual Studio Code",
+      "Git",
+      "GitHub",
+      "MySQL",
+      "MongoDB Atlas"
+    ]
+  },
+  "projects": [
+    {
+      "id": "sentriquiz",
+      "title": "SentriQuiz",
+      "type": "Full Stack Project",
+      "role": "Full Stack Developer",
+      "summary": "A secure online examination and browser-based proctoring application designed to support quiz sessions, monitoring, evidence capture and administrative review.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "MongoDB Atlas",
+        "MediaPipe"
+      ],
+      "features": [
+        "Online quiz system",
+        "Candidate identity fields",
+        "Initial camera photo capture",
+        "Face-presence monitoring",
+        "Fullscreen monitoring",
+        "Quiz timer",
+        "Automatic submission",
+        "Violation tracking",
+        "Camera evidence capture",
+        "Anti-cheating event monitoring",
+        "MongoDB data storage",
+        "REST API integration",
+        "Administrative dashboard"
+      ],
+      "project_url": "project.html?id=sentriquiz",
+      "github_url": "https://github.com/fatimatalat98/SentriQuiz"
+    },
+    {
+      "id": "virtual-pet-simulator",
+      "title": "Virtual Pet Simulator",
+      "type": "Academic Project",
+      "role": "Java Developer",
+      "summary": "A Java object-oriented virtual pet simulation application with a graphical user interface and MySQL database integration.",
+      "technologies": [
+        "Java",
+        "Object-Oriented Programming",
+        "Java Swing",
+        "JDBC",
+        "MySQL",
+        "SQL",
+        "MySQL Connector/J"
+      ],
+      "features": [
+        "User registration and login",
+        "Pet adoption",
+        "Different pet types",
+        "Health management",
+        "Hunger management",
+        "Happiness management",
+        "Energy management",
+        "Inventory system",
+        "Virtual shop",
+        "Coin system",
+        "Training system",
+        "Achievements",
+        "Tasks",
+        "Mini-games",
+        "Pet diary",
+        "Leaderboard",
+        "MySQL database integration"
+      ],
+      "project_url": "project.html?id=virtual-pet-simulator",
+      "github_url": "https://github.com/fatimatalat98/java-virtual-pet-simulator"
+    },
+    {
+      "id": "school-management-system",
+      "title": "School Management System",
+      "type": "Academic Project",
+      "role": "C++ Developer",
+      "summary": "A C++ school management application built using object-oriented programming, STL containers and file handling.",
+      "technologies": [
+        "C++",
+        "Object-Oriented Programming",
+        "STL",
+        "Vectors",
+        "File Handling"
+      ],
+      "features": [
+        "Admin functionality",
+        "Teacher functionality",
+        "Student functionality",
+        "Registration",
+        "Login",
+        "Marks management",
+        "Report cards",
+        "Notifications",
+        "Library management",
+        "Transport management",
+        "File-based persistence"
+      ],
+      "project_url": "project.html?id=school-management-system",
+      "github_url": "https://github.com/fatimatalat98/cpp-school-management-system"
+    },
+    {
+      "id": "toy-store",
+      "title": "Toy Store",
+      "type": "Frontend Project",
+      "role": "Frontend Developer",
+      "summary": "A responsive toy store website focused on storefront layout, navigation, product presentation and responsive design.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Responsive Web Design"
+      ],
+      "features": [
+        "Responsive storefront layout",
+        "Navigation interface",
+        "Product presentation",
+        "Promotional sections",
+        "Image-based layouts",
+        "Custom CSS styling",
+        "Responsive desktop and mobile design"
+      ],
+      "project_url": "project.html?id=toy-store",
+      "github_url": "https://github.com/fatimatalat98/toy-store"
+    },
+    {
+      "id": "quiz-project",
+      "title": "Quiz Project",
+      "type": "Frontend Project",
+      "role": "Frontend Developer",
+      "summary": "An interactive browser-based quiz project created to practice JavaScript-driven user interaction and frontend development.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "features": [
+        "Interactive quiz questions",
+        "User answer selection",
+        "JavaScript-based quiz logic",
+        "Frontend interface"
+      ],
+      "project_url": "project.html?id=quiz-project",
+      "github_url": "https://github.com/fatimatalat98/quiz-project"
+    },
+    {
+      "id": "theme-switcher",
+      "title": "Theme Switcher",
+      "type": "Frontend Project",
+      "role": "Frontend Developer",
+      "summary": "A frontend project demonstrating dynamic theme switching and JavaScript-based interface state changes.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "features": [
+        "Theme switching",
+        "Dynamic interface styling",
+        "JavaScript interaction",
+        "Frontend state changes"
+      ],
+      "project_url": "project.html?id=theme-switcher",
+      "github_url": "https://github.com/fatimatalat98/theme-switcher"
+    },
+    {
+      "id": "github-repository-practice",
+      "title": "GitHub Repository Practice",
+      "type": "Practice Project",
+      "role": "Developer",
+      "summary": "A practice project focused on learning Git repositories, commits, version control and GitHub workflows.",
+      "technologies": [
+        "Git",
+        "GitHub"
+      ],
+      "features": [
+        "Repository creation",
+        "Git commits",
+        "Version control practice",
+        "GitHub workflow practice"
+      ],
+      "project_url": "project.html?id=github-repository-practice",
+      "github_url": "https://github.com/fatimatalat98/github-repository"
+    },
+    {
+      "id": "team-git-practice",
+      "title": "Team Git Practice",
+      "type": "Collaborative Practice Project",
+      "role": "Team Contributor",
+      "summary": "A collaborative Git practice project focused on working with shared repositories and team version-control workflows.",
+      "technologies": [
+        "Git",
+        "GitHub"
+      ],
+      "features": [
+        "Collaborative repository workflow",
+        "Team Git practice",
+        "Version control",
+        "Shared development workflow"
+      ],
+      "project_url": "project.html?id=team-git-practice",
+      "github_url": "https://github.com/fatimatalat98/team-git-practice"
+    },
+    {
+      "id": "pomodoro-timer",
+      "title": "Pomodoro Timer",
+      "type": "Collaborative Project",
+      "role": "Contributor",
+      "summary": "A collaborative productivity application based on the Pomodoro Technique for managing focused work and break intervals.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "features": [
+        "Work timer",
+        "Short break timer",
+        "Long break timer",
+        "Timer controls",
+        "Pomodoro session workflow"
+      ],
+      "project_url": "project.html?id=pomodoro-timer",
+      "github_url": "https://github.com/lishay7890/pomodoro-timer"
+    },
+    {
+      "id": "story-clone",
+      "title": "Story Clone",
+      "type": "Collaborative Project",
+      "role": "Contributor",
+      "summary": "A collaborative web development project involving frontend and backend technologies.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "features": [
+        "Frontend interface",
+        "JavaScript functionality",
+        "Backend development",
+        "MongoDB integration",
+        "Collaborative development"
+      ],
+      "project_url": "project.html?id=story-clone",
+      "github_url": "https://github.com/lishay7890/story-clone-project"
+    },
+    {
+      "id": "weather-check",
+      "title": "Weather Check",
+      "type": "Collaborative Project",
+      "role": "Contributor",
+      "summary": "A weather application developed as part of a collaborative frontend development project.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "features": [
+        "Weather interface",
+        "JavaScript-based interaction",
+        "Responsive frontend",
+        "Collaborative development"
+      ],
+      "project_url": "project.html?id=weather-check",
+      "github_url": "https://github.com/lishay7890/weather-check-app"
+    },
+    {
+      "id": "custom-dropdown",
+      "title": "Custom Dropdown",
+      "type": "Collaborative Project",
+      "role": "Contributor",
+      "summary": "A custom frontend dropdown component built as part of a collaborative development exercise.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "features": [
+        "Custom dropdown interface",
+        "JavaScript interaction",
+        "Frontend component design",
+        "Collaborative development"
+      ],
+      "project_url": "project.html?id=custom-dropdown",
+      "github_url": "https://github.com/lishay7890/custom-dropdown"
+    },
+    {
+      "id": "task-tracker",
+      "title": "Task Tracker",
+      "type": "Collaborative Project",
+      "role": "Contributor",
+      "summary": "A task tracking application developed as part of a collaborative software development project.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "features": [
+        "Task management interface",
+        "Frontend interaction",
+        "JavaScript functionality",
+        "Collaborative development"
+      ],
+      "project_url": "project.html?id=task-tracker",
+      "github_url": "https://github.com/rmking205-oss/task-tracker"
+    },
+    {
+      "id": "temperature-system",
+      "title": "Temperature System",
+      "type": "Collaborative Project",
+      "role": "Contributor",
+      "summary": "A collaborative project focused on implementing temperature-related functionality and programming concepts.",
+      "technologies": [
+        "Programming",
+        "Software Development"
+      ],
+      "features": [
+        "Temperature-related functionality",
+        "Programming practice",
+        "Collaborative development"
+      ],
+      "project_url": "project.html?id=temperature-system",
+      "github_url": "https://github.com/rmking205-oss/temperature-system"
+    },
+    {
+      "id": "omnimodel-lab",
+      "title": "OmniModel Lab",
+      "type": "Full-Stack AI Application",
+      "role": "Full-Stack Developer",
+      "summary": "A multi-model AI playground that allows users to test different AI models from one interface, stream responses live, control generation parameters, track token usage and manage usage-based billing safely.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "OpenRouter API"
+      ],
+      "features": [
+        "Support for multiple AI models",
+        "Live streamed AI responses",
+        "Temperature, Top P and Max Token controls",
+        "Stop Generation functionality",
+        "Token usage and cost tracking",
+        "Wallet balance system",
+        "Transaction-safe billing",
+        "Immutable usage ledger",
+        "MySQL transactions and row locking",
+        "Stream chunk storage and recovery",
+        "Light and dark themes"
+      ],
+      "project_url": "project.html?id=omnimodel-lab",
+      "github_url": "https://github.com/fatimatalat98/omnimodel-lab"
+    },
+    {
+      "id": "multi-cloud-db-ecommerce",
+      "title": "Multi-Cloud DB E-Commerce",
+      "type": "Full-Stack Multi-Database Application",
+      "role": "Full-Stack Developer",
+      "summary": "An e-commerce dashboard built to demonstrate how one application can use multiple cloud databases. PostgreSQL stores structured relational commerce data while MongoDB Atlas stores flexible activity and event logs.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "Supabase PostgreSQL",
+        "MongoDB Atlas",
+        "Mongoose"
+      ],
+      "features": [
+        "Customer CRUD operations",
+        "Product CRUD operations",
+        "Shopping cart functionality",
+        "Order creation and order items",
+        "Server-side price calculation",
+        "Product stock validation",
+        "Inventory reduction after checkout",
+        "PostgreSQL transactions",
+        "MongoDB activity logging",
+        "Combined dashboard data from two cloud databases",
+        "Responsive e-commerce admin dashboard"
+      ],
+      "project_url": "project.html?id=multi-cloud-db-ecommerce",
+      "github_url": "https://github.com/fatimatalat98/multi-cloud-db-ecommerce"
+    }
+  ]
+}
