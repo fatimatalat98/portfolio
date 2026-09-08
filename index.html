@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fatima Talat - Software developer portfolio featuring frontend, full-stack, Java, C++ and database projects.">
+  <meta name="theme-color" content="#f3eee5">
+  <title>Fatima Talat | Software Developer</title>
+
+  <script>
+    (() => {
+      const saved = localStorage.getItem("portfolio-theme");
+      const preferred = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = saved || preferred;
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="chatbox.css">
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <div class="site-frame">
+    <header class="site-header" id="siteHeader">
+      <div class="nav-shell">
+        <a class="brand" href="#home" aria-label="Fatima Talat home">
+          <span class="brand-word">FATIMA</span>
+          <span class="brand-star">✦</span>
+          <span class="brand-word">TALAT</span>
+          <small>SOFTWARE DEVELOPER</small>
+        </a>
+
+        <button class="mobile-menu-button" id="mobileMenuButton" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav-menu" id="navMenu" aria-label="Primary navigation">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#projects">Work</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#journey">Journey</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-github" href="https://github.com/fatimatalat98" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <button class="theme-button" id="themeButton" type="button" aria-label="Switch color theme" title="Switch color theme"><span id="themeIcon">◐</span></button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="mainContent">
+      <section class="hero-section" id="home">
+        <div class="hero-ornament hero-ornament-a" aria-hidden="true">✦</div>
+        <div class="hero-ornament hero-ornament-b" aria-hidden="true">✦</div>
+        <div class="hero-kicker reveal">
+          <span>SOFTWARE DEVELOPER</span>
+          <span class="hero-rule"></span>
+          <span>FRONTEND · FULL STACK · SYSTEMS</span>
+        </div>
+
+        <div class="hero-title-wrap reveal">
+          <div class="hero-super">FATIMA TALAT</div>
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="hero-label">DEVELOPER · BUILDER · LEARNER</p>
+              <h1>Building thoughtful <em>digital systems.</em></h1>
+              <p class="hero-lead">I'm Fatima Talat, a software development student creating responsive interfaces, full-stack applications and database-backed systems with JavaScript, Java and C++.</p>
+              <div class="hero-actions">
+                <a class="button button-dark" href="#projects">View My Work <span>↗</span></a>
+                <button class="button button-link" type="button" data-open-chat>Ask Fatima <span>✦</span></button>
+              </div>
+              <div class="hero-signature">Fatima Talat</div>
+            </div>
+
+            <div class="hero-showcase" aria-label="Featured project preview">
+              <div class="hero-showcase-arch">
+                <div class="hero-preview-top">
+                  <span>SENTRIQUIZ / FEATURED BUILD</span>
+                  <span>01</span>
+                </div>
+                <div class="hero-preview-screen">
+                  <div class="hero-preview-sidebar">
+                    <b>FT</b>
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="hero-preview-main">
+                    <div class="preview-eyebrow">SECURE EXAM / MONITORING</div>
+                    <div class="preview-heading">Exam flow with browser-based proctoring.</div>
+                    <div class="preview-answer">QUESTION STATE <i></i></div>
+                    <div class="preview-answer active">FACE PRESENCE <i></i></div>
+                    <div class="preview-answer">VIOLATION LOG <i></i></div>
+                    <div class="preview-monitor"><span>● CAMERA ACTIVE</span><span>FULLSCREEN</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-float-card">
+                <span>MY FOCUS</span>
+                <strong>Interface.<br>Logic. Data.<br>AI.</strong>
+                <i>✦</i>
+              </div>
+
+              <div class="hero-stamp" aria-hidden="true">
+                <span>FATIMA TALAT · SOFTWARE DEVELOPMENT ·</span>
+                <b>FT</b>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-facts reveal" aria-label="Portfolio highlights">
+          <div><strong>14</strong><span>Projects</span></div>
+          <div><strong>Java · C++</strong><span>Systems & OOP</span></div>
+          <div><strong>Node · Data</strong><span>Full-stack Builds</span></div>
+          <div><strong>RAG</strong><span>Portfolio Assistant</span></div>
+        </div>
+      </section>
+
+      <section class="about-section section" id="about">
+        <div class="about-grid reveal">
+          <div class="about-art" aria-hidden="true">
+            <div class="about-frame">
+              <div class="about-monogram">FT</div>
+              <div class="about-code-line line-1"></div>
+              <div class="about-code-line line-2"></div>
+              <div class="about-code-line line-3"></div>
+              <div class="about-code-line line-4"></div>
+              <div class="about-code-line line-5"></div>
+              <div class="about-corner">01 / ABOUT</div>
+            </div>
+            <div class="about-seal">BUILD · TEST · IMPROVE ·</div>
+          </div>
+
+          <div class="about-copy">
+            <p class="section-kicker section-kicker-light">About Me</p>
+            <h2>I'm a developer who likes to understand <em>the whole system.</em></h2>
+            <p>I'm a developer who enjoys understanding how a web application works from the interface all the way to the database.</p>
+            <p>I started with HTML, CSS and JavaScript projects and gradually moved into Node.js, Express, MongoDB, Git workflows and more complete applications.</p>
+            <div class="about-points">
+              <span>✦ Responsive interface development</span>
+              <span>✦ Backend APIs and application logic</span>
+              <span>✦ Database-backed systems</span>
+              <span>✦ Git and collaborative development</span>
+            </div>
+          </div>
+
+          <aside class="about-note">
+            <span>MY APPROACH</span>
+            <p>My goal is not only to make something work, but to understand why it works and how different components communicate.</p>
+            <div class="note-flower" aria-hidden="true">⌁</div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="projects-section section" id="projects">
+        <div class="projects-heading reveal">
+          <div>
+            <p class="section-kicker section-kicker-dark">02 / SELECTED WORK</p>
+            <h2>Projects with <em>purpose, logic & craft.</em></h2>
+          </div>
+          <p>From browser interfaces to full-stack systems, Java applications and collaborative builds.</p>
+        </div>
+
+        <div class="project-controls reveal">
+          <div class="project-filters" aria-label="Project filters">
+            <button class="filter-button active" data-filter="all" type="button">All</button>
+            <button class="filter-button" data-filter="fullstack" type="button">Full Stack</button>
+            <button class="filter-button" data-filter="frontend" type="button">Frontend</button>
+            <button class="filter-button" data-filter="collab" type="button">Collaborative</button>
+            <button class="filter-button" data-filter="practice" type="button">Practice</button>
+          </div>
+          <label class="project-search" for="projectSearch"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects" autocomplete="off"></label>
+        </div>
+
+        <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+        <div class="project-archive" id="projectArchive" hidden></div>
+      </section>
+
+      <section class="skills-section section" id="skills">
+        <div class="skills-header reveal">
+          <p class="section-kicker">03 / TOOLKIT</p>
+          <h2>A practical stack, shaped by <em>building real projects.</em></h2>
+          <p>Frontend is my foundation, with growing experience across APIs, databases, object-oriented programming and AI-assisted application patterns.</p>
+        </div>
+
+        <div class="skills-grid reveal">
+          <article class="skill-card skill-card-featured">
+            <div class="skill-icon">⌘</div><span>PRIMARY</span><h3>Frontend</h3>
+            <p>Building responsive interfaces and interactive browser experiences.</p>
+            <ul><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive UI</li><li>DOM</li><li>Browser APIs</li></ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">{ }</div><span>SERVER</span><h3>Backend</h3>
+            <p>Connecting interfaces to server logic and application APIs.</p>
+            <ul><li>Node.js</li><li>Express.js</li><li>REST APIs</li><li>npm</li></ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">◇</div><span>LANGUAGES</span><h3>Programming</h3>
+            <p>Problem solving across web and object-oriented applications.</p>
+            <ul><li>JavaScript</li><li>Java</li><li>C++</li><li>OOP</li></ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">▦</div><span>DATA</span><h3>Database</h3>
+            <p>Storing and retrieving application data across document and relational databases.</p>
+            <ul><li>MongoDB</li><li>MongoDB Atlas</li><li>MySQL</li><li>SQL</li><li>JDBC</li></ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">↗</div><span>WORKFLOW</span><h3>Tools</h3>
+            <p>Version control, collaboration and everyday development tooling.</p>
+            <ul><li>Git</li><li>GitHub</li><li>VS Code</li><li>Branches</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="journey-section section" id="journey">
+        <div class="journey-title reveal">
+          <div><p class="section-kicker">04 / MY PROCESS</p><h2>Learning one layer <em>at a time.</em></h2></div>
+          <p>Each stage added a new part of the development stack and changed the way I approach projects.</p>
+        </div>
+        <div class="journey-line reveal">
+          <article><div class="journey-number">01</div><span>FOUNDATION</span><h3>HTML & CSS</h3><p>Structure, styling, responsive layouts and reusable UI patterns.</p></article>
+          <article><div class="journey-number">02</div><span>INTERACTIVITY</span><h3>JavaScript</h3><p>DOM events, browser APIs, state and interactive application logic.</p></article>
+          <article><div class="journey-number">03</div><span>TEAM WORK</span><h3>Git & GitHub</h3><p>Shared repositories, commits, branches and team integration.</p></article>
+          <article><div class="journey-number">04</div><span>FULL STACK</span><h3>Node + Data</h3><p>Backend APIs, MongoDB and connected applications.</p></article>
+          <article><div class="journey-number">05</div><span>SYSTEM THINKING</span><h3>SentriQuiz + AI</h3><p>Monitoring, persistence and retrieval-augmented generation.</p></article>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contact">
+        <div class="contact-art" aria-hidden="true">
+          <div class="contact-orbit"></div>
+          <span class="contact-star">✦</span>
+          <span class="contact-ft">FT</span>
+        </div>
+        <div class="contact-copy reveal">
+          <p class="section-kicker section-kicker-light">05 / LET'S CONNECT</p>
+          <h2>Let's build something <em>meaningful together.</em></h2>
+          <p>I'm always interested in learning, collaboration and new development opportunities.</p>
+          <div class="contact-actions">
+            <a class="button button-cream" href="https://github.com/fatimatalat98" target="_blank" rel="noopener noreferrer">Visit GitHub <span>↗</span></a>
+            <button class="button button-outline-light" type="button" data-open-chat>Ask Fatima <span>✦</span></button>
+          </div>
+        </div>
+        <div class="contact-side reveal">
+          <span>AI PROJECT ASSISTANT</span>
+          <p>Ask questions about my projects, technologies, repositories and how each project was built.</p>
+          <button type="button" data-open-chat>Open Assistant ↗</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand"><strong>FATIMA<span>✦</span>TALAT</strong><small>SOFTWARE DEVELOPER</small></div>
+      <nav aria-label="Footer navigation"><a href="#home">Home</a><a href="#projects">Work</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#journey">Journey</a></nav>
+      <div class="footer-end"><a href="https://github.com/fatimatalat98" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>Built with HTML · CSS · JavaScript</span></div>
+    </footer>
+  </div>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+
+  <button class="chat-launcher" id="chatLauncher" type="button" aria-label="Open Fatima's portfolio assistant" aria-expanded="false" aria-controls="chatPanel"><span class="chat-launcher-icon">✦</span><span>Ask Fatima</span></button>
+  <section class="chat-panel" id="chatPanel" aria-hidden="true" aria-label="Fatima portfolio assistant">
+    <header class="chat-header">
+      <div class="chat-header-info"><div class="assistant-avatar">FT</div><div><div class="chat-title-row"><h2>Ask Fatima</h2><span class="ai-badge">RAG</span></div><div class="assistant-status"><span class="status-dot"></span><span>Ask about my work</span></div></div></div>
+      <button class="chat-close" id="chatClose" type="button" aria-label="Close portfolio assistant">×</button>
+    </header>
+    <div class="chat-messages" id="chatMessages" role="log" aria-live="polite">
+      <article class="message assistant-message"><div class="message-avatar">FT</div><div class="message-content"><div class="message-bubble"><p>Hi! I'm Fatima's project assistant. Ask me about her projects, skills, technologies, repositories or how a project was built.</p></div></div></article>
+      <div class="suggested-questions" id="suggestedQuestions"><p class="suggestions-title">Try asking</p><button type="button" class="suggestion-button" data-question="Tell me about SentriQuiz.">Tell me about SentriQuiz</button><button type="button" class="suggestion-button" data-question="What Java project has Fatima built?">Java project</button><button type="button" class="suggestion-button" data-question="Which projects use MongoDB?">MongoDB projects</button><button type="button" class="suggestion-button" data-question="Which projects have GitHub links?">GitHub repositories</button></div>
+    </div>
+    <div class="chat-error" id="chatError" role="alert" hidden></div>
+    <footer class="chat-footer"><form class="chat-form" id="chatForm"><label class="chat-sr-only" for="chatInput">Ask Fatima's project assistant</label><textarea id="chatInput" class="chat-input" placeholder="Ask about projects or skills..." rows="1" maxlength="1000"></textarea><button class="send-button" id="sendButton" type="submit" aria-label="Send message"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6.5 10.5 12 5l5.5 5.5"></path></svg></button></form><p class="chat-disclaimer">Answers are generated from Fatima's portfolio data.</p></footer>
+  </section>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+  <script src="chatbox.js"></script>
+</body>
+</html>

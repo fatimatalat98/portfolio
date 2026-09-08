@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fatima Talat project details and development journey">
+  <meta name="theme-color" content="#f3eee5">
+  <title>Project Details | Fatima Talat</title>
+
+  <script>
+    (() => {
+      const saved = localStorage.getItem("portfolio-theme");
+      const preferred = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = saved || preferred;
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="chatbox.css">
+</head>
+<body class="case-body">
+  <a class="skip-link" href="#projectPage">Skip to project details</a>
+  <div class="case-frame">
+    <header class="case-header">
+      <a class="brand" href="index.html#home" aria-label="Back to Fatima Talat home">
+        <span class="brand-word">FATIMA</span><span class="brand-star">✦</span><span class="brand-word">TALAT</span><small>SOFTWARE DEVELOPER</small>
+      </a>
+      <div class="case-nav-actions">
+        <a href="index.html#projects">← All projects</a>
+        <button class="theme-button case-theme" id="themeButton" type="button" aria-label="Switch color theme" title="Switch color theme"><span id="themeIcon">◐</span></button>
+      </div>
+    </header>
+    <main id="projectPage"></main>
+    <footer class="site-footer case-footer">
+      <div class="footer-brand"><strong>FATIMA<span>✦</span>TALAT</strong><small>SOFTWARE DEVELOPER</small></div>
+      <nav><a href="index.html#projects">Work</a><a href="index.html#about">About</a><a href="index.html#skills">Skills</a></nav>
+      <div class="footer-end"><a href="https://github.com/fatimatalat98" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>Project details</span></div>
+    </footer>
+  </div>
+  <button class="chat-launcher" id="chatLauncher" type="button" aria-label="Open Fatima's portfolio assistant" aria-expanded="false" aria-controls="chatPanel"><span class="chat-launcher-icon">✦</span><span>Ask Fatima</span></button>
+  <section class="chat-panel" id="chatPanel" aria-hidden="true" aria-label="Fatima portfolio assistant">
+    <header class="chat-header">
+      <div class="chat-header-info"><div class="assistant-avatar">FT</div><div><div class="chat-title-row"><h2>Ask Fatima</h2><span class="ai-badge">RAG</span></div><div class="assistant-status"><span class="status-dot"></span><span>Ask about this portfolio</span></div></div></div>
+      <button class="chat-close" id="chatClose" type="button" aria-label="Close portfolio assistant">×</button>
+    </header>
+    <div class="chat-messages" id="chatMessages" role="log" aria-live="polite">
+      <article class="message assistant-message"><div class="message-avatar">FT</div><div class="message-content"><div class="message-bubble"><p>Ask me about this project, Fatima's skills, technologies or GitHub repositories.</p></div></div></article>
+      <div class="suggested-questions" id="suggestedQuestions"><p class="suggestions-title">Try asking</p><button type="button" class="suggestion-button" data-question="Tell me about SentriQuiz.">SentriQuiz</button><button type="button" class="suggestion-button" data-question="What technologies does Fatima know?">Technologies</button><button type="button" class="suggestion-button" data-question="Which projects have GitHub links?">GitHub repositories</button></div>
+    </div>
+    <div class="chat-error" id="chatError" role="alert" hidden></div>
+    <footer class="chat-footer"><form class="chat-form" id="chatForm"><label class="chat-sr-only" for="chatInput">Ask Fatima's portfolio assistant</label><textarea id="chatInput" class="chat-input" placeholder="Ask about projects or skills..." rows="1" maxlength="1000"></textarea><button class="send-button" id="sendButton" type="submit" aria-label="Send message"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6.5 10.5 12 5l5.5 5.5"></path></svg></button></form><p class="chat-disclaimer">Answers are generated from Fatima's portfolio data.</p></footer>
+  </section>
+
+  <script src="projects.js"></script>
+  <script src="project.js"></script>
+  <script src="chatbox.js"></script>
+</body>
+</html>
