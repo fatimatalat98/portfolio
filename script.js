@@ -53,37 +53,23 @@ const projectSearch =
 ========================================================== */
 
 const PROJECT_DISPLAY_ORDER = [
-
-    "multi-cloud-db-ecommerce",
-
     "sentriquiz",
-
+    "rescuelens-ai",
+    "omnimodel-lab",
+    "multi-cloud-db-ecommerce",
     "virtual-pet-simulator",
-
     "school-management-system",
-
-    "toy-store",
-
     "quiz-project",
-
-    "theme-switcher",
-
-    "github-repository",
-
-    "team-git-practice",
-
     "pomodoro-timer",
-
     "story-clone",
-
     "weather-check",
-
-    "custom-dropdown",
-
     "task-tracker",
-
-    "temperature-system"
-
+    "custom-dropdown",
+    "theme-switcher",
+    "toy-store",
+    "temperature-system",
+    "team-git-practice",
+    "github-repository"
 ];
 
 
@@ -461,10 +447,10 @@ function renderProjects() {
 function projectCardMarkup(project, layoutClass) {
 
     const originalIndex =
-        projects.findIndex(
-            (item) =>
-                item.id === project.id
-        );
+    orderedProjects.findIndex(
+        (item) =>
+            item.id === project.id
+    );
 
     const projectNumber =
         String(originalIndex + 1)
