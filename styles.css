@@ -173,7 +173,7 @@ img, svg { display: block; max-width: 100%; }
   cursor: pointer;
   transition: background .18s ease, border-color .18s ease, transform .18s ease;
 }
-.theme-button:hover { background: var(--surface); transform: rotate(12deg); }
+.theme-button:hover { background: var(--surface); }
 .mobile-menu-button {
   display: none;
   width: 42px;
