@@ -25,7 +25,9 @@
     "backend": [
       "Node.js",
       "Express.js",
-      "REST APIs"
+      "REST APIs",
+      "OpenRouter API",
+      "Groq API"
     ],
     "programming": [
       "JavaScript",
@@ -46,14 +48,20 @@
       "Database Integration",
       "Git",
       "GitHub",
-      "Retrieval-Augmented Generation"
+      "Retrieval-Augmented Generation",
+      "Multimodal AI",
+      "Speech-to-Text",
+      "Computer Vision",
+      "API Integration"
     ],
     "tools": [
       "Visual Studio Code",
       "Git",
       "GitHub",
       "MySQL",
-      "MongoDB Atlas"
+      "MongoDB Atlas",
+      "OpenRouter",
+      "Groq"
     ]
   },
   "projects": [
@@ -90,6 +98,166 @@
       ],
       "project_url": "project.html?id=sentriquiz",
       "github_url": "https://github.com/fatimatalat98/SentriQuiz"
+    },
+    {
+      "id": "rescuelens-ai",
+      "title": "RescueLens AI",
+      "type": "Full-Stack Multimodal AI Project",
+      "role": "Full Stack Developer",
+      "summary": "RescueLens AI is a multimodal disaster intelligence system that analyses emergency reports using text, images and voice input. It combines AI-powered text analysis, computer vision, speech-to-text and multimodal evidence fusion to assess incident severity and recommend response actions.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Vanilla JavaScript",
+        "Node.js",
+        "Express.js",
+        "OpenRouter API",
+        "Groq Whisper",
+        "Multer",
+        "MediaRecorder API"
+      ],
+      "features": [
+        "Emergency incident reporting interface",
+        "Text-based AI incident analysis",
+        "Image and visual evidence analysis",
+        "Voice report recording and audio upload",
+        "Speech-to-text transcription",
+        "Audio incident analysis",
+        "AI-generated disaster type detection",
+        "AI-generated severity assessment",
+        "Risk factor identification",
+        "Recommended emergency response actions",
+        "Final multimodal evidence fusion",
+        "Combined text, image and audio assessment",
+        "Incident status management",
+        "Manual AI re-analysis",
+        "Severity filtering",
+        "Uploaded evidence storage",
+        "Incident history and review interface"
+      ],
+      "frontend": {
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "Vanilla JavaScript"
+        ],
+        "responsibilities": [
+          "Incident reporting interface",
+          "Image and audio upload",
+          "Browser microphone recording",
+          "Incident listing and severity filtering",
+          "Status updates",
+          "Rendering text, image, audio and final multimodal AI results"
+        ]
+      },
+      "backend": {
+        "technologies": [
+          "Node.js",
+          "Express.js"
+        ],
+        "responsibilities": [
+          "REST API handling",
+          "Incident creation and retrieval",
+          "Status updates",
+          "Text, image and audio analysis requests",
+          "Multimodal fusion",
+          "File upload handling",
+          "Incident data persistence"
+        ]
+      },
+      "ai_services": {
+        "openrouter": {
+          "purpose": [
+            "Text incident analysis",
+            "Image and vision analysis",
+            "Audio transcript analysis",
+            "Final multimodal evidence fusion"
+          ]
+        },
+        "groq": {
+          "purpose": "Speech-to-text transcription",
+          "model_type": "Whisper speech recognition"
+        }
+      },
+      "input_modalities": [
+        {
+          "modality": "Text",
+          "processing": "The backend sends the written incident report to OpenRouter for structured analysis."
+        },
+        {
+          "modality": "Image",
+          "processing": "Uploaded visual evidence is analysed with a vision-capable model through OpenRouter."
+        },
+        {
+          "modality": "Audio",
+          "processing": "Uploaded or recorded audio is transcribed with Groq Whisper and the transcript is then analysed."
+        }
+      ],
+      "multimodal_pipeline": [
+        "User submits an incident report",
+        "Text report is analysed",
+        "Uploaded image is analysed when available",
+        "Uploaded or recorded audio is transcribed when available",
+        "Audio transcript is analysed",
+        "Available text, image and audio analysis results are combined",
+        "A final multimodal assessment is generated",
+        "The frontend displays the complete analysis"
+      ],
+      "storage": {
+        "incident_data": "JSON file",
+        "incident_file": "data/incidents.json",
+        "uploaded_files": "uploads directory"
+      },
+      "main_challenge": "The main challenge was coordinating text, image and audio evidence through separate AI pipelines and combining the available results into one consistent emergency assessment.",
+      "learning_outcomes": [
+        "Node.js backend development",
+        "Express.js routing",
+        "REST API development",
+        "Frontend and backend communication",
+        "Asynchronous JavaScript",
+        "External AI API integration",
+        "OpenRouter integration",
+        "Groq integration",
+        "File uploads with Multer",
+        "Browser MediaRecorder API",
+        "Environment variable management",
+        "Multimodal AI design",
+        "AI evidence fusion"
+      ],
+      "architecture_flow": "Frontend -> Express REST API -> Text/Image/Audio Processing -> OpenRouter and Groq -> Multimodal Fusion -> Incident Storage -> Frontend Results",
+      "project_url": "project.html?id=rescuelens-ai",
+      "github_url": "https://github.com/fatimatalat98/rescuelens-ai"
+    },
+    {
+      "id": "omnimodel-lab",
+      "title": "OmniModel Lab",
+      "type": "Full-Stack AI Application",
+      "role": "Full-Stack Developer",
+      "summary": "A multi-model AI playground that allows users to test different AI models from one interface, stream responses live, control generation parameters, track token usage and manage usage-based billing safely.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "OpenRouter API"
+      ],
+      "features": [
+        "Support for multiple AI models",
+        "Live streamed AI responses",
+        "Temperature, Top P and Max Token controls",
+        "Stop Generation functionality",
+        "Token usage and cost tracking",
+        "Wallet balance system",
+        "Transaction-safe billing",
+        "Immutable usage ledger",
+        "MySQL transactions and row locking",
+        "Stream chunk storage and recovery",
+        "Light and dark themes"
+      ],
+      "project_url": "project.html?id=omnimodel-lab",
+      "github_url": "https://github.com/fatimatalat98/omnimodel-lab"
     },
     {
       "id": "virtual-pet-simulator",
@@ -379,37 +547,6 @@
       ],
       "project_url": "project.html?id=temperature-system",
       "github_url": "https://github.com/rmking205-oss/temperature-system"
-    },
-    {
-      "id": "omnimodel-lab",
-      "title": "OmniModel Lab",
-      "type": "Full-Stack AI Application",
-      "role": "Full-Stack Developer",
-      "summary": "A multi-model AI playground that allows users to test different AI models from one interface, stream responses live, control generation parameters, track token usage and manage usage-based billing safely.",
-      "technologies": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Node.js",
-        "Express.js",
-        "MySQL",
-        "OpenRouter API"
-      ],
-      "features": [
-        "Support for multiple AI models",
-        "Live streamed AI responses",
-        "Temperature, Top P and Max Token controls",
-        "Stop Generation functionality",
-        "Token usage and cost tracking",
-        "Wallet balance system",
-        "Transaction-safe billing",
-        "Immutable usage ledger",
-        "MySQL transactions and row locking",
-        "Stream chunk storage and recovery",
-        "Light and dark themes"
-      ],
-      "project_url": "project.html?id=omnimodel-lab",
-      "github_url": "https://github.com/fatimatalat98/omnimodel-lab"
     },
     {
       "id": "multi-cloud-db-ecommerce",
